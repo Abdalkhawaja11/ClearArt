@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/bootstrap.min.css.map">
+     <link rel="stylesheet" href="js/all.min.js">
+     <link rel="stylesheet" href="js/bootstrap.bundle.min.js">
+     <link rel="stylesheet" href="js/bootstrap.bundle.min.js.map">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,260,260i,600,600i,700,700i|Poppins:300,300i,400,400i,260,260i,600,600i,700,700i" rel="stylesheet">
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-white sticky-top">
+    <div class="container">      
+      <a class="navbar-brand" href="index2.php"><img src="./img/Group 89.jpg" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="bi bi-justify"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link hh1" aria-current="page" href="index2.php">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ab" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ab" href="Shop.php">Shop</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link ab" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <button class="rounded-circle dd"><i class="bi bi-search"></i></button>
+          </li>
+          <li class="nav-item">
+            <button class="rounded-circle dd"><i class="bi bi-bell-fill"></i></button>
+          </li>
+          <li class="nav-item">
+            <a href="cart.php"><button class="rounded-circle dd"><i class="bi bi-bag"></i></button></a>
+            </button>
+          </li>
+          <li class="nav-item">
+            <a href="fav.php" class="text-dark"><button class="rounded-circle dd"><i class="bi bi-heart-fill"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="dashboard.html" class="text-dark"><button class="rounded-circle dd"><i class="bi bi-person"></i></a>
+          </li>
+          
+
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+        <h4><b>Personal Profile</b></h4>
+        <div class="col-md-2 person">
+             <img src="./img/7A0A0422.jpg" alt="" class="rounded-circle w-50 h-25 mt-5 ms-4">
+             <p class="ms-2 mt-3 fw-bold">Abdelrhman Naser</p>
+             <div class="info-button">
+                <i class="bi bi-person"></i> 
+                <span>Info</span>
+            </div>
+            <div class="info-button">
+                <a href="fav.php"><i class="bi bi-bookmark"></i>
+                <span>Favorite</span></a>
+            </div>
+            <div class="info-button">
+                <a href="orders.html"><i class="bi bi-bag"></i>
+                <span>Orders</span></a>
+            </div>
+        </div>
+        <div class="col-md-6 form-container ms-3 me-5 ">
+            <div class="row">
+                <div class="col-md-4 profile-picture ">
+                    <svg id="user" xmlns="http://www.w3.org/2000/svg" width="183.207" height="183.207" viewBox="0 0 183.207 183.207">
+                        <path id="Path_211" data-name="Path 211" d="M183.207,91.6A91.6,91.6,0,1,1,91.6,0,91.376,91.376,0,0,1,183.207,91.6Zm0,0" transform="translate(0 0)" fill="#d6d6d6"/>
+                        <path id="Path_213" data-name="Path 213" d="M206.947,333.349v.365a91.607,91.607,0,0,1-123.459,0v-.365a61.729,61.729,0,1,1,123.459,0Zm0,0" transform="translate(-53.614 -174.428)" fill="#6c727f"/>
+                        <path id="Path_215" data-name="Path 215" d="M225.914,126.974a37.861,37.861,0,1,1-37.861-37.861A37.9,37.9,0,0,1,225.914,126.974Zm0,0" transform="translate(-96.449 -57.226)" fill="#f8f8f8"/>
+                      </svg>
+                      
+                      <div class="profile-picture text-center mt-3 ms-1">
+                        
+                        
+                        <a  class="upload" href="#" onclick="document.getElementById('fileInput').click(); return false;">Upload Picture</a>
+                       
+                        <input type="file" id="fileInput" style="display: none;" accept="image/*">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <form>
+                        <div class="mb-3">
+                            <label for="fullName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="fullName" placeholder="Full Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="emailAddress" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="emailAddress" placeholder="First Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mobileNumber" class="form-label">Mobile Number</label>
+                            <input type="text" class="form-control" id="mobileNumber" placeholder="0790000000" >
+                        </div>
+                        
+                            <button type="button" class="btn-update">Update</button><br>
+                            <button type="button" class="btn-logout">Logout</button>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Side Panel -->
+        <div class="col-md-2 side-panel ">
+            <h5>Change Password</h5>
+            <p>Need to Update your Password?</p>
+            <button class="btn btn-outline-secondary">Update Password</button>
+        </div>
+    </div>
+</div>
+  
+  <footer class="mt-5 ff">
+    <div class="row">
+      <div class="col-md-3">
+        <img src="./img/Group 89.jpg" alt="" class="mt-5  ms-5">
+        <p class="pp2 ms-5">At Clear Art, we are dedicated to supporting dentists with unparalleled quality, reliability, and personalized service. Join us in creating healthier, brighter smiles for all.</p>
+      </div>
+      <div class="col-md-3">
+        <ul class="uu">
+          <h4 class="text-white">Site Map</h4>
+          <li class="mb-2 lq"><a>Home</a></li>
+          <li class="mb-2 lq"><a>About</a></li>
+          <li class="mb-2 lq"><a>Shop</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul class="uu">
+          <h4 class="text-white">Support</h4>
+          <li class="mb-2 lq"><a>Contact</a></li>
+          <li class="mb-2 lq"><a>Terms & Conditions</a></li>
+          <li class="mb-2 lq"><a>Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul class="u2">
+          <li class="mb-0"><i class="bi bi-geo-alt-fill me-2 loc"></i>5TH circle- Karadsheh</li>
+            <li class="mb-2 ms-4"> Tower - Amman - Jordan</li>
+          <li class="mb-2"><i class="bi bi-envelope-fill me-2 loc"></i>contact@clearart.com</li>
+          <li class="mb-2"><i class="bi bi-telephone me-2 loc"></i>+962 79 000 0000</li>
+          <img src="./img/Group 1215.png" alt="" class="me-4">
+          <img src="./img/Group 1214.png" alt="" class="me-4">
+          <img src="./img/Group 1213.png" alt="" class="me-4">
+          <img src="./img/Group 1212.png" alt="" class="me-4">
+        </ul>
+      </div>
+      <hr class="hr">
+      <p class="copy ms-5">Copy right 2024 &copy; all rights reserved<a href="https://hudhudit.com/web.php" class="hud">HUDHUD IT</a></p>
+    </div>
+  </footer>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script src="script.js"></script>
+  </body>
+  </html>
+  

@@ -1,0 +1,174 @@
+body{
+    background-image: url(./img/Group\ 4632.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.cc {
+    background-color: #111E24;
+    color: white;
+    height: 80vh;
+    position: fixed;
+    left: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 390px;
+    border-radius: 20px;
+}
+
+
+ul.mt-5 {
+    padding-left: 36%;
+}
+
+.u1 {
+    color: #ACCED3;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 4px 0;
+    text-align: center;  
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.u1:hover {
+    color: #3c757df1;
+    text-decoration: none;
+}
+
+.u1 li {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.u1 i {
+    margin-right: 10px;
+}
+
+
+.lan,
+.lam {
+    display: block;
+    color: #ACCED3;
+    text-align: center;
+   
+}
+.lan:hover,
+.lam:hover {
+    display: block;
+    color: #3c757df1;
+    text-align: center;
+    text-decoration: none;   
+}
+.new{
+    background-color: #111E24;
+    color: #ACCED3;
+    width:200px;
+    margin-left: 400px;
+}
+.card-custom {
+    width: 310px;
+    margin-top: 10%;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+}
+
+.card-custom img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.card-custom .date {
+    margin: 15px 0;
+    color: #888;
+    font-size: 14px;
+}
+
+.card-custom .btn {
+    margin-top: 20px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.card-custom .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.card-custom .stat {
+    text-align: center;
+}
+
+.card-custom .icon {
+    font-size: 30px;
+    
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.card-custom .stat-number {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card-custom .stat-label {
+    color: #888;
+    font-size: 14px;
+}
+.l1{
+    margin-left: 8%;
+}
+.l2 {
+    margin-left: 8%;
+    border-top: white;
+    border-left: white;
+    background-color: rgba(225, 225, 225, 0.728); 
+    border-color: white;
+    border-radius: 4.5%;
+    width: 80%;      
+    height: 40px;    
+}
+.add {
+    margin-top: 2%;
+    margin-left: 3%;
+    height: 50px;    
+    width: 43%;      
+}
+
+@media (max-width: 768px) {
+    .cc {
+        max-width: 100%;
+        position: relative;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .new {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .card-custom {
+        width: 100%;
+    }
+}
+@media screen and (max-width :360){
+    .cc{
+        max-width: 50%;
+        position: relative;
+        height: auto;
+        margin-bottom: 10px;
+    }
+}
